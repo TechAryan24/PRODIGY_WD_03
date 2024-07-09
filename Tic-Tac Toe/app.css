@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#0db2af;
+    text-align:center ;
+}
+
+h1{
+    font-family: "Protest Riot", sans-serif;
+    font-size: 3rem;
+    color:#271d67;
+    margin-top: 1.5rem;
+    
+}
+
+.container{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height:18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    color: crimson;
+    background-color: #F8FFE5;
+    cursor:pointer;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25 rem;
+    color: rgb(30, 16, 16);
+    background-color: #DACC3E;
+    border-radius: 1rem ;
+    border : none;
+}
+#reset-btn:hover{
+    color: red;
+    cursor: pointer;
+    background-color: whitesmoke;
+
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25 rem;
+    color: rgb(30, 16, 16);
+    background-color: #DACC3E;
+    border-radius: 1rem ;
+    border : none;
+    
+}
+#new-btn:hover{
+    color: red;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+#msg{
+    color: gold;
+    font-size: 8vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.msg-container .score{
+    display: inline-block;
+}
+
+.msg-container .score span{
+    margin: 2rem 5rem;
+    border: 3px solid black;
+    border-radius: 16px;
+    padding: 2rem 1.8rem;
+    text-align: center;
+    font-family: "Mukta", sans-serif;
+    font-size: 1.5rem;
+    background-color: #9df5c1;
+    color: #0c24ad;
+    box-shadow: 0 0 10px #bee4e4;
+    letter-spacing: 2px;
+   
+}
+
+
+.hide{
+    display: none;
+}
